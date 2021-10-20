@@ -7,5 +7,6 @@
   "author": "romaric.guth <romaric.guth@epita.fr>",
   "license": "MIT",
   "private": false,
-  "type": "module"
+  "type": "module",
+  "devDependencies": {}
 }
