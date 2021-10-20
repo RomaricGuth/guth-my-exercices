@@ -9,5 +9,3 @@ export const my_length_array = (arr) => {
   }
   return size;
 }
-
-console.log(my_length_array([1, 2, 'a']));

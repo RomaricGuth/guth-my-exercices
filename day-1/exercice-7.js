@@ -9,8 +9,3 @@ export const my_is_posi_neg = (nbr) => {
 
   return 'NEUTRAL';
 }
-
-console.log(my_is_posi_neg(-12.5));
-console.log(my_is_posi_neg());
-console.log(my_is_posi_neg(0));
-console.log(my_is_posi_neg(5));

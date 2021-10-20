@@ -21,5 +21,3 @@ export const my_display_combv2 = () => {
     }
     return res;
 }
-
-console.log(my_display_combv2());

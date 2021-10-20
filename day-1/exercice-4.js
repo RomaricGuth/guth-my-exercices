@@ -9,5 +9,3 @@ export const my_size_alpha = (str) => {
   }
   return size;
 }
-
-console.log(my_size_alpha('6chars'));

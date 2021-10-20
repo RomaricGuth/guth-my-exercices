@@ -6,6 +6,3 @@ export const my_display_comb = () => {
     });
     return res;
 }
-
-console.log(my_display_comb());
-console.log(my_display_comb().slice(490));

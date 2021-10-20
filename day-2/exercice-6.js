@@ -22,5 +22,3 @@ export const my_display_unicode = (arr) => {
 
     return str;
 }
-
-console.log(my_display_unicode([32, 65, 90, 32, 50, 57, 97, 122]));

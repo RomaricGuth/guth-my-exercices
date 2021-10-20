@@ -39,9 +39,3 @@ export const my_string_is_number = (str) => {
 
   return has_number;
 }
-
-console.log(my_string_is_number(" +65,3"));
-console.log(my_string_is_number(" -6-5,3"));
-console.log(my_string_is_number(" 6  "));
-console.log(my_string_is_number("   "));
-console.log(my_string_is_number("   6.4.8"));

@@ -8,5 +8,3 @@ export const my_display_alpha_reverse = () => {
     }
     return alpha_reverse;
 }
-
-console.log(my_display_alpha_reverse());

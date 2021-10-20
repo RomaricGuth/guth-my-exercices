@@ -9,5 +9,3 @@ export const my_array_alpha = (str) => {
   }
   return array;
 }
-
-console.log(my_array_alpha('6chars'));
