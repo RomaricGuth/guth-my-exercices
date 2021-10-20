@@ -1,0 +1,11 @@
+{
+  "name": "guth-my-exercices",
+  "version": "0.1.0",
+  "description": "epita nodejs workshop",
+  "main": "index.js",
+  "repository": "https://github.com/RomaricGuth/guth-my-exercices.git",
+  "author": "romaric.guth <romaric.guth@epita.fr>",
+  "license": "MIT",
+  "private": false,
+  "type": "module"
+}
