@@ -1,13 +1,13 @@
-export const my_size_alpha = (str) => {
+export const my_array_alpha = (str) => {
   if (typeof str !== 'string') {
-    return 0;
+    return [];
   }
 
-  let size = 0;
-  while (str[size] !== undefined) {
-    size++;
+  let array = [];
+  for (let i = 0; str[i] !== undefined; i++) {
+    array = [...array, str[i]];
   }
-  return size;
+  return array;
 }
 
-console.log(my_size_alpha('6chars'));
+console.log(my_array_alpha('6chars'));
