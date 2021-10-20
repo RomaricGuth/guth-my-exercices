@@ -15,7 +15,7 @@ export const my_string_is_number = (str) => {
   }
 
   while (str[i] !== undefined) {
-    if (!has_dot && str[i] === ',' || str[i] === '.') {
+    if (!has_dot && (str[i] === ',' || str[i] === '.')) {
       has_dot = true;
     } else if (str.charCodeAt(i) >= 48 && str.charCodeAt(i) <= 57) {
       has_number = true;
@@ -40,3 +40,8 @@ export const my_string_is_number = (str) => {
   return has_number;
 }
 
+console.log(my_string_is_number(" +65,3"));
+console.log(my_string_is_number(" -6-5,3"));
+console.log(my_string_is_number(" 6  "));
+console.log(my_string_is_number("   "));
+console.log(my_string_is_number("   6.4.8"));
