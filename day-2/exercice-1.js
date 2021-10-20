@@ -1,8 +1,12 @@
-export const my_display_forever_42 = (nbr) => {
-  if (typeof nbr !== 'number') {
-    return 42;
+export const my_alpha_reverse = (str) => {
+  if (typeof str !== 'string') {
+    return '';
   }
 
-  return nbr;
+  let str_reverse = '';
+  for (let i = str.length - 1; i >= 0; i--) {
+    str_reverse += str[i];
+  }
+  return str_reverse;
 }
 
